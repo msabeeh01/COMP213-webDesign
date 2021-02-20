@@ -1,0 +1,90 @@
+
+
+
+h1,h2,h3,h4{
+    color: burlywood;
+}
+
+b{
+    color: burlywood;
+    font-family: Verdana;
+}
+
+#secondpagebody1,p{
+    color: white;
+    background-color:#23272a ;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font-family: Verdana;
+}
+
+.imgbox {
+    display: grid;
+    height: 100%;
+    opacity: 75%;
+}
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+/**Sticky Nav Bar code from W3Schools**/
+
+#stickylist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: papayawhip;
+    position:sticky;
+    top:0;
+  }
+
+#listitems {
+    float: left;
+    display: block;
+    color: burlywood;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-family: Verdana;
+  }
+  
+#listitems:hover{
+    background-color: rgb(253, 253, 253);
+}
+
+
+a:link{
+    text-decoration: none;
+    color : rgb(252, 143, 0)
+}
+a:visited { 
+    text-decoration: none; 
+    color:rgb(252, 143, 0); 
+
+}
+
+#unlisted{
+    font-family: Verdana;
+    list-style-type: none;
+}
+
+/**Bullet Color Change code from W3Schools**/
+ul #coloredbullet::before{
+    content: "\2022";
+    color: white;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.centerimg{
+    margin-left: 200px;
+}
