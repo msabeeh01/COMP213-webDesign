@@ -1,6 +1,37 @@
-body{
-    background-color: white;
-    line-height: 40px;
+/*Div allignment*/
+.imagemap{
+    float:right;
+    max-width: 33.33%;
+}
+
+.imageContainer{
+    float: left;
+    max-width: 33.33%;
+}
+
+.descriptionContainer{
+    max-width: 33.33%;
+    float:left;
+}
+/*Div allignment*/
+
+
+
+/*Fonts and Text styles*/
+.descriptionContainer p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.descriptionContainer ul {
+    font-size: 20px;
+}
+/*Fonts and Text styles*/
+
+
+/*Table CSS*/
+.descriptionContainer .priceModelTable{
+    margin-top:60px;
 }
 
 td:nth-child(1){
@@ -27,6 +58,8 @@ td:nth-child(2){
     padding:5px;
     padding-left: 100px;
 }
+/*Table CSS*/
+
 
 header{
     background-color: #55d6aa;
@@ -73,33 +106,9 @@ nav ul li a{
     font-size: 14px;
 }
 
-.container img {
-    float: left;
-    padding:10px;
-    padding-left:30px;
-}
-
 .imageContainer img{
-    height:241px;
-    width:241px;
-    float: left;
-    padding:20px;
-    padding-right:40px;
-}
-
-
-.descriptionContainer #title{
-    font-size:24px;
-}
-
-.descriptionContainer #description{
-    list-style-position: inside;
-}
-
-.descriptionContainer{
-    margin-left:25%;
-    margin-right:25%;
-    text-align: center;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .priceModelTable table{
@@ -107,18 +116,12 @@ nav ul li a{
     margin-right: auto;
 }
 
-.descriptionContainer ul {
-    margin-left: auto;
-    margin-right: auto;
+.descriptionContainer ul,p {
+    text-align: center;
 }
 
-.imagemap{
-    float:right;
-}
-
-.descriptionContainer p {
-    margin-left: auto;
-    margin-right: auto;
+.descriptionContainer li{
+    list-style-position: inside;
 }
 
 .buyButton{
@@ -138,12 +141,10 @@ nav ul li a{
     padding: 15px 32px;
 }
 
+/*Image Map CSS*/
 .imagemap img {
-    margin-top: 40px;
-    float:right;
-    max-width:100%;
-    height:auto;
-    top: 100px;
-    right: 20px;
-    position:fixed;
+    padding-left: 15%;
+    max-width: 100%;
+    max-height: 100%;
 }
+/*Image Map CSS*/

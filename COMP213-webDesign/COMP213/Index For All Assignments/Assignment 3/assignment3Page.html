@@ -3,11 +3,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
-    <link rel="stylesheet" href="../CSS files/a3style.css">
+    <link rel="stylesheet" href="../CSS files/as3style.css">
     <title>Assignment 3</title>
 </head>
 
 <body>
+
     <div class="container">
         <header>
             <img src = "../Images/msLogo.png" style = "width:50px;height:50px;">
@@ -22,6 +23,7 @@
         </header>
     </div>
 
+    
     <div class="imageContainer">
         <img src="../Images/msiMonitor.jpg">
     </div>
@@ -38,7 +40,7 @@
 
 
         <div class="priceModelTable">
-            <table border:1; rules="rows">
+            <table border:1;  align = "center" rules="rows" >
                 <tr>
                     <th>Model</th>
                     <th>Price</th>
@@ -49,14 +51,24 @@
                 </tr>
             </table>
         </div>
+
         <div class="buyButton">
             <button id = "button" type="button" onclick="alert('Hello world!')">Click Me!</button>
         </div>
     </div>
 
-    <div class = "cartContainer" style = "border-style: solid;border-color:#dddd;border-radius:5px;">
-        <p>Here's your Cart:</p>
+    <div class = imagemap>
+        <img src="../Images/canadaMap.png" usemap="#image_map">
+            <map name="image_map">
+                <area alt="ontario" title="ontario" href="https://www.lucomputers.com/" coords="1312,1969 1341,1954 1352,1940 1380,1942 1380,1933 1413,1919 1411,1911 1399,1905 1403,1892 1432,1880 1461,1872 1486,1855 1512,1826 1517,1801 1471,1810 1459,1803 1414,1787 1383,1768 1370,1711 1356,1589 1339,1585 1298,1541 1284,1504 1279,1465 1281,1442 1211,1432 1189,1418 1178,1416 1123,1378 976,1543 968,1597 968,1680 976,1694 980,1706 1023,1713 1067,1731 1106,1739 1141,1709 1141,1702 1193,1707 1199,1729 1226,1744 1238,1760 1252,1787 1269,1803 1321,1808 1352,1812 1372,1837 1378,1857 1339,1847 1341,1867 1335,1890 1339,1905 1325,1927 1319,1952 1304,1969 " shape="polygon">
+                <area alt="manitoba" title="manitoba" href="https://www.memoryexpress.com/Category/LaptopsNotebooks?FilterID=88fc28e9-0596-d72c-de6b-62a55c2940ff" coords="803,1674 829,1341 838,1321 836,1310 848,1228 992,1244 993,1286 1023,1300 1032,1325 1034,1349 1038,1364 1059,1366 1077,1362 1110,1372 1114,1374 982,1527 964,1543 959,1591 957,1692 " shape="polygon">
+                <area alt="saskatchewan" title="saskatchewan" href="http://www.swcomputers.ca/" coords="578,1636 681,1203 838,1230 797,1676 662,1657 " shape="polygon">
+                <area alt="alberta" title="alberta" href="http://honorcomp.com/" coords="570,1636 675,1197 481,1137 394,1389 473,1556 466,1593 473,1609 570,1636 " shape="polygon">
+                <area alt="bcolumbia" title="bcolumbia" href="https://www.sandtronic.ca/" coords="254,1529 196,1434 182,1414 182,1368 190,1358 175,1325 179,1304 175,1252 204,1228 221,1191 206,1145 204,1102 198,1023 180,988 146,999 138,1003 134,957 349,1081 473,1139 392,1389 466,1552 462,1607 349,1568 " shape="polygon">
+            </map>
     </div>
+
+    
 </body>
 
 </html>
