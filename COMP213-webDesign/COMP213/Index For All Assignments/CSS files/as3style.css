@@ -1,6 +1,6 @@
 /*Div allignment*/
 .imagemap{
-    float:right;
+    float:left;
     max-width: 33.33%;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -16,8 +16,9 @@
 }
 
 .descriptionContainer{
-    max-width: 33.33%;
+    max-width: 66.67%;
     float:left;
+    margin-bottom:50px;
 }
 /*Div allignment*/
 
@@ -63,6 +64,10 @@ td:nth-child(2){
     text-align:right;
     padding:5px;
     padding-left: 100px;
+}
+
+tr:nth-child(even){
+    background:#bafde7;
 }
 /*Table CSS*/
 
@@ -116,7 +121,7 @@ nav ul li a{
     max-height: 60%;
     max-width: 60%;
     padding: 20px;
-    padding-left:100px;
+    padding-left:60px;
 }
 
 .priceModelTable table{
@@ -124,12 +129,13 @@ nav ul li a{
     margin-right: auto;
 }
 
-.descriptionContainer ul,p {
+.descriptionContainer p {
     text-align: center;
 }
 
 .descriptionContainer li{
     list-style-position: inside;
+    text-indent: -1.28571429em;
 }
 
 .buyButton{
@@ -160,13 +166,18 @@ nav ul li a{
     font-weight:bold;
     font-size:20px;
     background: #55d6aa;
+    text-align:center;
 }
 /*Image Map CSS*/
 
 .footer {
-    position:absolute;
+    position:fixed;
     bottom:0;
     max-width: 100%;
     width:100%;
     background: #55d6aa;
+}
+
+.footer p {
+    text-align: center;
 }
