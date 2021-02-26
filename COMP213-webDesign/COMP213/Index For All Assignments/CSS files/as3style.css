@@ -2,11 +2,17 @@
 .imagemap{
     float:right;
     max-width: 33.33%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 3px solid #55d6aa;
+    margin-top:20px;
 }
 
 .imageContainer{
     float: left;
     max-width: 33.33%;
+    margin-top:20px;
 }
 
 .descriptionContainer{
@@ -107,8 +113,10 @@ nav ul li a{
 }
 
 .imageContainer img{
-    max-height: 100%;
-    max-width: 100%;
+    max-height: 60%;
+    max-width: 60%;
+    padding: 20px;
+    padding-left:100px;
 }
 
 .priceModelTable table{
@@ -126,6 +134,7 @@ nav ul li a{
 
 .buyButton{
     margin-top:20px;
+    text-align: center;
 }
 
 #button{
@@ -143,8 +152,21 @@ nav ul li a{
 
 /*Image Map CSS*/
 .imagemap img {
-    padding-left: 15%;
     max-width: 100%;
     max-height: 100%;
 }
+
+.imagemap p {
+    font-weight:bold;
+    font-size:20px;
+    background: #55d6aa;
+}
 /*Image Map CSS*/
+
+.footer {
+    position:absolute;
+    bottom:0;
+    max-width: 100%;
+    width:100%;
+    background: #55d6aa;
+}
